@@ -1,0 +1,28 @@
+page-home {
+    .container {
+        display: flex;
+        justify-content: space-around;
+        background: #182838;
+        height: 45vh;
+    }
+    .child1 {
+        flex: 1;
+        background-color: #182838;
+    }
+    // .child2 {
+    //     flex: 1;
+    //     display: flex;
+    //     background-color: brown;
+    // }
+    .dot {
+        flex: 1;
+        height: 28vh;
+        // width: 32vh;
+        background-color: transparent;
+        border-radius: 50%;
+        display: inline-block;
+        border: 5px solid #7bffd5;
+        margin-right: 20px;
+        margin-top: 30px;
+      }
+}
